@@ -1,0 +1,11 @@
+CREATE TABLE #MyTable
+(
+	[ID]		INT NOT NULL IDENTITY(1, 1)
+	, [Name]	VARCHAR(50)
+);
+
+SET IDENTITY_INSERT #MyTable ON;
+INSERT INTO #MyTable ([ID], [Name]) VALUES (3, 'C'), (4, 'D');
+SET IDENTITY_INSERT #MyTable OFF;
+
+SELECT * FROM #MyTable;

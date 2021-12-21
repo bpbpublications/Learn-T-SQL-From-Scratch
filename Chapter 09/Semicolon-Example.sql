@@ -1,0 +1,2 @@
+/* Semicolon (;) */
+PRINT 'Hi';

@@ -1,0 +1,6 @@
+INSERT INTO Customer (CustomerID, CustomerName, CustomerAddress, CustomerMobile)
+VALUES (16, 'Customer 16', 'Customer 16 Address', '1616161616')
+	, (17, 'Customer 17', 'Customer 17 Address', '1717171717')
+	, (18, 'Customer 18', 'Customer 18 Address', '1818181818')
+	, (19, 'Customer 19', 'Customer 19 Address', '1919191919')
+	, (20, 'Customer 20', 'Customer 20 Address', '2020202020')

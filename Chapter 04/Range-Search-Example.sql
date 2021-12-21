@@ -1,0 +1,3 @@
+SELECT *
+FROM Customer
+WHERE CustomerID BETWEEN 1 AND 2

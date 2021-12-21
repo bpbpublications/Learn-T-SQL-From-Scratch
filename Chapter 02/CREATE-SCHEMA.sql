@@ -1,0 +1,1 @@
+CREATE SCHEMA Learn_T_SQL

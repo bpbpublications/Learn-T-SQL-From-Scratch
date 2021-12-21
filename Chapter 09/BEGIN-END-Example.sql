@@ -1,0 +1,4 @@
+/* BEGIN … END */
+BEGIN
+	PRINT 'Hi'
+END

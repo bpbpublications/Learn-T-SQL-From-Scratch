@@ -1,0 +1,2 @@
+ALTER TABLE [Test]
+	DROP COLUMN [Address]

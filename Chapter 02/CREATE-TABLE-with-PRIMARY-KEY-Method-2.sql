@@ -1,0 +1,6 @@
+CREATE TABLE [Test]
+(
+	[ID]		INT
+				CONSTRAINT PK_Test_ID PRIMARY KEY
+	, [Name]	VARCHAR(50)
+)

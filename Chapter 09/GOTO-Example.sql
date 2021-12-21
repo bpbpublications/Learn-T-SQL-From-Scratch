@@ -1,0 +1,11 @@
+/* GOTO */
+DECLARE @A_GOTO	INT;
+
+SET @A_GOTO = 0;
+
+A:
+SET @A_GOTO = @A_GOTO + 1;
+SELECT @A_GOTO
+
+IF (@A_GOTO < 5)
+GOTO A

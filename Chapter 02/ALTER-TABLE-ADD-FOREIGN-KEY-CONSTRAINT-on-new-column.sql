@@ -1,0 +1,2 @@
+ALTER TABLE [Test]
+	ADD [Parent_ID] INT CONSTRAINT FK_Test_Parent_ID FOREIGN KEY ([Parent_ID]) REFERENCES [Test] (ID)
